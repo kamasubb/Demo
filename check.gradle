@@ -1,0 +1,9 @@
+task check (type : Exec) {
+    print 'Running Check Task'
+    executable = "ls"; 
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+       return standardOutput.toString()
+    }
+}
+
