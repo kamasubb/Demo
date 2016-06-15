@@ -1,4 +1,5 @@
 task build (type : Exec) {
+
     print 'Running build task'
     executable = "ls"; 
     standardOutput = new ByteArrayOutputStream()
