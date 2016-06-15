@@ -1,5 +1,5 @@
 task check (type : Exec) {
-    print 'Running Check Task'
+    print 'New Running Check Task'
     executable = "ls"; 
     standardOutput = new ByteArrayOutputStream()
     ext.output = {
