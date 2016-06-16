@@ -1,6 +1,6 @@
 task build (type : Exec) {
 
-    print 'Running build task'
+    print 'Running build task for testing'
     executable = "ls"; 
     standardOutput = new ByteArrayOutputStream()
     ext.output = {
