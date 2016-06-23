@@ -1,1 +1,10 @@
-for testing downstream 
+ask build (type : Exec) {
+
+    print 'Running build task for testing ON 23rd June 12:30pm'
+    executable = "ls"; 
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+       return standardOutput.toString()
+    }
+}
+ 
