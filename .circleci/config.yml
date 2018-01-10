@@ -33,7 +33,6 @@ http://ftp.unicamp.br/pub/linuxpatch/ubuntu/14_04/misc/docker-17.04.0-ce-amd64/ 
       - docker build --volume type=bind,source=/tmp/qemu-ppc64le-static,target=/usr/bin/qemu-ppc64le-static  -f Dockerfile.ppc64le -t ppc64le/mysql .
       - docker build -f Dockerfile -t amd64/mysql .
 
-
     working_directory: ~/repo
 
     steps:
